@@ -43,6 +43,14 @@ class KegControl extends React.Component {
     });
   }
 
+  handleDecrementingKegPints = (id) => {
+    const selectedKeg = this.state.masterKegList.filter(keg => keg.id === id)[0];
+    const decrementedKegPints = selectedKeg.pints - 1;
+    selectedKeg.setState({
+      pints: decrementedKegPints
+    })
+  }
+
   handleDeletingKeg = (id) => {
     const newMasterKegList = this.state.masterKegList.filter(keg => keg.id !== id);
     this.setState({
