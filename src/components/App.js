@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header.js";
-import KegList from "./KegList.js";
+import Header from "./Header";
+import KegList from "./KegList";
 
 function App(){
   return (
