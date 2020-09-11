@@ -1,7 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { v4 } from "uuid";
 
-function NewKegForm(){
+function NewKegForm(props){
   function handleNewKegFormSubmission(event) {
     event.preventDefault();
     console.log(event.target.kegName.value);
@@ -39,5 +40,9 @@ function NewKegForm(){
     </React.Fragment>
   )
 }
+
+NewKegForm.propTypes = {
+  onNewKegCreation: PropTypes.func
+};
 
 export default NewKegForm;
