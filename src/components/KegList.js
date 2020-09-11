@@ -3,7 +3,12 @@ import Keg from "Keg.js";
 
 function KegList(){
   return (
-    <Keg />
+    <Keg
+      kegName = "Pumpkin Brew"
+      brewery = "Old Weasel's"
+      price = "$35.00"
+      alcoholContent = "14%"
+      pints = "124" />
   );
 }
 
