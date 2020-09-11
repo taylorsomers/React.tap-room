@@ -7,7 +7,7 @@ function Keg(props){
       <div onClick = {() => props.whenKegClicked(props.id)}>
         <h1>{props.kegName}</h1>
         <h2>{props.brewery}</h2>
-        <p>{props.price}</p>
+        <p>${props.price}</p>
         <p>{props.alcoholContent}%</p>
         <p>{props.pints} Pints Remaining</p>
       </div>
