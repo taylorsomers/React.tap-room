@@ -1,18 +1,13 @@
 import React from "react";
 
-function Keg(){
-  const kegName = "Pumpkin Brew";
-  const brewery = "Old Weasel's";
-  const price = "$35.00";
-  const alcoholContent = "14%";
-  const pints = 124;
+function Keg(props){
   return (
     <React.Fragment>
-      <h1>{kegName}</h1>
-      <h2>{brewery}</h2>
-      <p>{price}</p>
-      <p>{alcoholContent}</p>
-      <p>{pints}</p>
+      <h1>{props.kegName}</h1>
+      <h2>{props.brewery}</h2>
+      <p>{props.price}</p>
+      <p>{props.alcoholContent}</p>
+      <p>{props.pints} Pints Remaining</p>
     </React.Fragment>
   );
 }
