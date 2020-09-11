@@ -5,11 +5,14 @@ import { v4 } from "uuid";
 function NewKegForm(props){
   function handleNewKegFormSubmission(event) {
     event.preventDefault();
-    console.log(event.target.kegName.value);
-    console.log(event.target.brewery.value);
-    console.log(event.target.price.value);
-    console.log(event.target.alcoholContent.value);
-    console.log(event.target.pints.value);
+    props.onNewKegCreation({
+      kegName: event.target.kegName.value,
+      brewery: event.target.brewery.value,
+      price: event.target.price.value,
+      alcoholContent: event.target.alcoholContent.value,
+      pints: event.target.pints.value,
+      id: v4()
+    })
   }
   return (
     <React.Fragment>
