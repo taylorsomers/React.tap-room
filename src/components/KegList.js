@@ -1,5 +1,5 @@
 import React from "react";
-import Keg from "Keg.js";
+import Keg from "./Keg";
 
 const masterKegList = [
   {
