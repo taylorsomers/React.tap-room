@@ -44,6 +44,12 @@ class KegControl extends React.Component {
     });
   }
 
+  handleEditClick = () => {
+    this.setState({
+      editing: true
+    });
+  }
+
   handleDeletingKeg = (id) => {
     const newMasterKegList = this.state.masterKegList.filter(keg => keg.id !== id);
     this.setState({
