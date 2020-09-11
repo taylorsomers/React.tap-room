@@ -1,68 +1,79 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tap Room
 
-## Available Scripts
+  ### By [Taylor Somers](https://github.com/taylorsomers/)
 
-In the project directory, you can run:
 
-### `npm start`
+<img align="center" src="./public/christin-hume-08tX2fsuSLg-unsplash.jpg" alt="rows of bottles of different types of beer in a tap room">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#description">Description</a> •
+  <a href="#requirements">Requirements</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#contributors">Contributors</a> •
+  <a href="#license">License</a>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Languages & Technologies Used:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  ### Programming Languages, Libraries, & Frameworks
+  * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+  * [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+  * [MySQL](https://www.mysql.com/)
+  * [.NET Core](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ### Operating Systems & Programs
+  * [Brave](https://brave.com/)
+  * [Microsoft PowerShell](https://docs.microsoft.com/en-us/powershell/)
+  * [Microsoft Windows 10](https://www.microsoft.com/en-us/windows/get-windows-10)
+  * [MySql Workbench](https://www.mysql.com/products/workbench/)
+  * [Postman](https://www.postman.com/)
+  * [Visual Studio Code](https://code.visualstudio.com/)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Requirements
+  * [Git v2.62.2 or Later](https://git-scm.com/downloads/)
+  * [MySql Workbench](https://www.mysql.com/products/workbench/)
+  * [Postman v7.30.1 or Later](https://www.postman.com/downloads/)
+  * [Visual Studio Code](https://code.visualstudio.com/)
+  * [.NET Core v2.2 or Later](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  1.  Make sure you have installed all <a href="#requirements">required software</a>.
+  2.  Open your computer's terminal and navigate to the directory in which you would like the program to be stored.
+  3.  Enter the command ```git clone https://github.com/taylorsomers/React.tap-room``` in the terminal.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## App Component Diagram
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./public/diagram.png" alt="diagram mapping nested components of the React app">
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Known Bugs
 
-### Analyzing the Bundle Size
+| Location : Message |  Situation  | Resolved (Y/N) |  Bug Resolution Strategy |
+| ----------- | ----------- | ----------- | ----------- |
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Support & Contact Details
 
-### Advanced Configuration
+  * You are welcome to contact the [author](https://github.com/taylorsomers/) via GitHub with any concerns, feedback, possible contributions, questions, or suggestions.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+### Contributors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+  * [Taylor Somers](https://github.com/taylorsomers/)
+  * README Photo Credit: [Christin Hume](https://unsplash.com/@christinhumephoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### License
+
+  * This program is free to use under the [GNU Affero General Public License AGPLv3.0](https://www.gnu.org/licenses/agpl-3.0.html). <span><img height="12em" src="./public/AGPLv3Logo.png" alt="logo for the GNU Affero General Public License AGPLv3.0"></span> © 2020 Taylor Somers. All rights reserved.
