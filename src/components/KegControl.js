@@ -28,6 +28,7 @@ class KegControl extends React.Component {
   handleClick = () => {
     if (this.state.selectedKeg != null) {
       this.setState({
+        editing: false,
         formVisibleOnPage: false,
         selectedKeg: null
       });
