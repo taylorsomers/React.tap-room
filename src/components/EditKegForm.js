@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import ReusableForm from "./ReusableForm";
 
 function EditKegForm(props) {
@@ -10,5 +11,9 @@ function EditKegForm(props) {
     </React.Fragment>
   );
 }
+
+EditKegForm.propTypes = {
+  onEditKeg: PropTypes.func
+};
 
 export default EditKegForm;
