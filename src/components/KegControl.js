@@ -1,4 +1,5 @@
 import React from "react";
+import EditKegForm from "./EditKegForm";
 import KegDetail from "./KegDetail";
 import KegList from "./KegList";
 import NewKegForm from "./NewKegForm";
@@ -62,7 +63,10 @@ class KegControl extends React.Component {
     let currentlyVisibleState = null;
     let buttonText = null;
 
-    if (this.state.selectedKeg != null) {
+    if (this.state.editing) {
+      currentlyVisibleState = <EditKegForm keg = {this.state.selectedKeg} />
+      buttonText = "Return to Keg List";
+    } else if (this.state.selectedKeg != null) {
       currentlyVisibleState = <KegDetail
         keg = {this.state.selectedKeg}
         onClickingDelete = {this.handleDeletingKeg}
