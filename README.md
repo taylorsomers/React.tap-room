@@ -16,23 +16,20 @@
 
 ## Description
 
-  
+  This application is a simulation tap-room management system that allows a user to add kegs of specified beer to the tap-room, designate the beer's name, brewery, alcohol content, and number of pints in the keg, and click a button to indicate when a pint has been sold, decrementing the number of pints in the keg. The user may also edit any of the keg details at will. All kegs are displayed in a keg list, and any kegs in the list may be clicked to display details and allow the user to edit, sell a pint, or delete the selected keg. This program was built using the React JavaScript library in Visual Studio Code.
 
 
 ## Languages & Technologies Used:
 
   ### Programming Languages, Libraries, & Frameworks
-  * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
-  * [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
-  * [MySQL](https://www.mysql.com/)
-  * [.NET Core](https://dotnet.microsoft.com/download/dotnet-core/2.2)
+  * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  * [React](https://reactjs.org/)
 
   ### Operating Systems & Programs
   * [Brave](https://brave.com/)
+  * [Draw.io](https://app.diagrams.net/)
   * [Microsoft PowerShell](https://docs.microsoft.com/en-us/powershell/)
   * [Microsoft Windows 10](https://www.microsoft.com/en-us/windows/get-windows-10)
-  * [MySql Workbench](https://www.mysql.com/products/workbench/)
-  * [Postman](https://www.postman.com/)
   * [Visual Studio Code](https://code.visualstudio.com/)
 
 
@@ -49,6 +46,7 @@
   1.  Make sure you have installed all <a href="#requirements">required software</a>.
   2.  Open your computer's terminal and navigate to the directory in which you would like the program to be stored.
   3.  Enter the command ```git clone https://github.com/taylorsomers/React.tap-room``` in the terminal.
+  4.  
 
 
 ## App Component Diagram
@@ -58,9 +56,7 @@
 
 ## Known Bugs
 
-| Location : Message |  Situation  | Resolved (Y/N) |  Bug Resolution Strategy |
-| ----------- | ----------- | ----------- | ----------- |
-
+  None at this time.
 
 
 ## Support & Contact Details
