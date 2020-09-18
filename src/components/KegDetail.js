@@ -6,14 +6,16 @@ function KegDetail(props) {
 
   function handlePintSale(event) {
     event.preventDefault();
-    props.onClickingSellPint({
-      kegName: keg.kegName,
-      brewery: keg.brewery,
-      price: keg.price,
-      alcoholContent: keg.alcoholContent,
-      pints: keg.pints - 1,
-      id: keg.id
-    });
+    if (keg.pints >  0){
+      props.onClickingSellPint({
+        kegName: keg.kegName,
+        brewery: keg.brewery,
+        price: keg.price,
+        alcoholContent: keg.alcoholContent,
+        pints: keg.pints - 1,
+        id: keg.id
+      });
+    }
   }
 
   return (
